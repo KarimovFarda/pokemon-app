@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import GridTemplate from 'templates/GridTemplate';
-import UserPageTemplate from 'templates/UserPageTemplate';
-import Card from 'components/organisms/Card';
-import Pagination from 'components/molecules/Pagination';
+import GridTemplate from '../templates/GridTemplate';
+import UserPageTemplate from '../templates/UserPageTemplate';
+import Card from '../components/organisms/Card';
+import Pagination from '../components/molecules/Pagination';
 
 const PokemonList = () => {
   const [pokemons, setPokemons] = useState([]);
