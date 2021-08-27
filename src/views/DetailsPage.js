@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import UserPageTemplate from 'templates/UserPageTemplate';
-import DetailsTemplate from 'templates/DetailsTemplate';
-import PokemonBody from 'components/organisms/PokemonBody';
-import PokemonHeader from 'components/molecules/PokemonHeader';
-import Loading from 'components/molecules/Loading';
-import TextArea from 'components/atoms/TextArea';
+import UserPageTemplate from '../templates/UserPageTemplate';
+import DetailsTemplate from '../templates/DetailsTemplate';
+import PokemonBody from '../components/organisms/PokemonBody';
+import PokemonHeader from '../components/molecules/PokemonHeader';
+import Loading from '../components/molecules/Loading';
+import TextArea from '../components/atoms/TextArea';
 
 const DetailsPage = ({ match }) => {
   const [isLoaded, setLoaded] = useState(false);
