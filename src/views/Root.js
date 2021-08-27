@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import PokemonList from 'views/PokemonList';
-import DetailsPage from 'views/DetailsPage';
-import MainTemplate from 'templates/MainTemplate';
-import { routes } from 'routes';
+import PokemonList from './views/PokemonList';
+import DetailsPage from './views/DetailsPage';
+import MainTemplate from '../templates/MainTemplate';
+import { routes } from '../routes/index';
 
 const Root = () => (
   <BrowserRouter>
